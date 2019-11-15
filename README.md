@@ -61,7 +61,7 @@ The HTTP server for this LoadBalancer has been configured to run on port 9090
 * Add new destination(192.168.1.4) to current destinations (current destinations are: "192.168.1.2" and "192.168.1.3") and the current LoadBalancing algorithm is Round Robin
 
     ```
-        {
-        "servers":[ {"addr":"192.168.1.2", "port":8000}, {"addr":"192.168.1.3", "port":8000}, {"addr":"192.168.1.4", "port":8000}]
-        } 
+    {
+    "servers":[ {"addr":"192.168.1.2", "port":8000}, {"addr":"192.168.1.3", "port":8000}, {"addr":"192.168.1.4", "port":8000}]
+    } 
     ````
