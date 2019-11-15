@@ -68,6 +68,7 @@ if __name__ == '__main__':
 
     # Start Http Server Process
     httpServers = []
+    logmsg('Starting up HTTP server on port 9090')
     httpServer = HttpServerReq("localhost", 9090, algorithmQueue)
     httpServer.start()
     httpServers.append(httpServer)
